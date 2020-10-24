@@ -31,7 +31,7 @@
 - name: Create and start container
   docker_container:
     name: readarr
-    image: hotio/readarr:unstable
+    image: hotio/readarr:nightly
     pull: yes
     env:
       TZ: "{{ tz }}"
